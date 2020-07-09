@@ -1,0 +1,142 @@
+
+.fa{
+    font-size: 50px;
+    
+}
+
+.navbar{
+    background: #000;
+    .nav-item{
+        margin-right: 1rem;
+    }
+    .nav-item:last-child{
+        margin-right: 0px;
+    }
+    .nav-link{
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+
+#slider{
+    .carousel-item{
+        height: 450px;
+        
+    }
+    .carousel-img-1{
+        background: url(../img/image1.jpeg);
+        background-size: cover;
+    }
+    .carousel-img-2{
+        background: url(../img/image2.jpeg);
+        background-size: cover;
+    }
+    .carousel-img-3{
+        background: url(../img/image3.jpeg);
+        background-size: cover;
+    }
+   
+}
+#homeIcon{
+    .fa{
+        font-size: 50px;
+    }
+}
+#started{
+    background:url(../img/image2.jpeg);
+    background-attachment: fixed;
+    background-size: cover;  
+    
+}
+#bootstrap{
+    
+    background:url(../img/image1.jpeg);
+    background-attachment: fixed;
+    background-size: cover; 
+    
+    .dark{
+        background-color: rgba(0, 0, 0, 0.621);
+    }
+    .fa{
+        font-size: 50px;
+        color: red;
+    }
+}
+#footer{
+    background: #000;
+}
+
+#aboutUs{
+    background: url(../img/image1.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+}
+#aboutDo{
+    img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+
+#aboutTestimonial{
+    .slick-prev::before, .slick-next::before{
+        color: #000;
+    }
+}
+
+#services{
+    background: url(../img/image2.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+
+#servicesPlan{
+    .fa{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+@media(max-width:575px){
+    .carousel-item{
+        h2{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+        
+    }
+  
+}
+@media(max-width:450px){
+
+    #started{
+        h3{
+            font-size: 1.5rem;
+        }
+        P{
+            font-size: 1.2rem;
+        }
+    }
+    #aboutTestimonial{
+        p{
+            font-size: 1rem;
+        }
+    }
+    #aboutDo{
+        img{
+            width: 250px;
+            height: 250px;
+        }
+    }
+}
